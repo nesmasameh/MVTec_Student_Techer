@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
+    <link rel="icon" href="images/logo.png">
+    <title>Anomaly Detection</title>
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+
+    <link rel="stylesheet" type="text/css" href="css/fullpage.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="css/templatemo-style.css">
+
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+
+    <div id="video">
+        <div class="preloader">
+            <div class="preloader-bounce">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <header id="header">
+            <div class="container-fluid">
+                <div class="navbar">
+                    <a href="#" id="logo" title="Elegance by TemplateMo">
+                        MVTec
+                    </a>
+                    <div class="navigation-row">
+                        <nav id="navigation">
+                            <button type="button" class="navbar-toggle"> <i class="fa fa-bars"></i> </button>
+                            <div class="nav-box navbar-collapse">
+                                <ul class="navigation-menu nav navbar-nav navbars" id="nav">
+                                    <li data-menuanchor="slide01" class="active"><a href="#slide01">Home</a></li>
+                                    <li data-menuanchor="slide02"><a href="#slide02">Detect</a></li>
+                                    <li>
+                                        <select id="imgType" class="img-type-select">
+                                            <option value="carpet">Carpet</option>
+                                            <option value="bottle">Bottle</option>
+                                            <option value="cable">Cable</option>
+                                            <option value="carpet">Carpet</option>
+                                            <option value="grid">Grid</option>
+                                            <option value="hazelnut">Hazelnut</option>
+                                            <option value="leather">Leather</option>
+                                            <option value="metal_nut">Metal_nut</option>
+                                            <option value="pill">Pill</option>
+                                            <option value="screw">Screw</option>
+                                            <option value="tile">Tile</option>
+                                            <option value="toothbrush">Toothbrush</option>
+                                            <option value="transistor">Transistor</option>
+                                            <option value="wood">Wood</option>
+                                            <option value="zipper">Zipper</option>
+                                        </select>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <img src="images/1.gif" id="poster" style="position: fixed;top: 0;left: 0;width: 100%;height: 100%;">
+
+        <div id="fullpage" class="fullpage-default">
+
+            <div class="section animated-row" data-section="slide01">
+                <div class="section-inner">
+                    <div class="welcome-box" style="margin-top: 38px;">
+                        <span class="welcome-first animate" data-animate="fadeInUp">Hello, welcome to</span>
+                        <h1 class="welcome-title animate" data-animate="fadeInUp">MVTec</h1>
+                        <p class="animate" data-animate="fadeInUp">This is a website for detecting anomaly in images of different industrial products based on MVTec dataset.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="upload-section" class="section animated-row" data-section="slide02" style="">
+                <div class="item animate" data-animate="fadeInUp">
+                    <div class="upload-box">
+                        <p aria-hidden="true">
+                            <div class="custom-upload">
+                                <input onchange="readURL(this)" type="file" id="upload">
+                                <span>Chosse Image</span>
+                            </div>
+                        </p>
+                    </div>
+                    <div class="parent">
+
+
+                        <div class="imgUploaded float-left">
+                            <img id="uploadedImg" src="#" alt="imgUploaded" />
+                        </div>
+                        <div class="imgSolved float-left">
+                            <img id="solvedImg" src="#" alt="imgSolved" />
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- <footer class="section animated-row footer-area section-gap-top" style="padding-top: 20px;">
+                <div class="container">
+                    <div class="row pb-10">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-footer-widget">
+                                <div class="mb-40">
+                                    <img src="images/logo.png" style="margin-top: 30px;" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-footer-widget">
+                                <h6 class="heading">Websites Links</h6>
+                                <div class="row">
+                                    <ul class="col footer-nav">
+                                        <li><a href="https://www.onma.me/">Onma</a></li>
+                                        <li><a href="https://gmanga.me/">Gmana</a></li>
+                                        <li><a href="https://kissmanga.com/">kiss Manga</a></li>
+                                        <li><a href="https://loveheaven.net/index.html">Love Heaven</a></li>
+                                        <li><a href="https://wall.alphacoders.com/by_category.php?id=3&name=Anime+Wallpapers">Wallpapers</a></li>
+                                    </ul>
+                                    <ul class="col footer-nav">
+                                        <li><a href="https://18lhplus.com/">18lhplus</a></li>
+                                        <li><a href="http://www.mangago.me/">Mangago</a></li>
+                                        <li><a href="http://onbusco.com/">Onbusco</a></li>
+                                        <li><a href="https://shonenjumpplus.com/">Shonen Jump Plus</a></li>
+                                        <li><a href="https://www.viz.com/">Viz</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12">
+                            <div class="single-footer-widget mail-chimp">
+                                <h6 class="heading">Characters</h6>
+                                <div class="footer-news">
+                                    <img src="images/footer-right-pic.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            -->
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/jquery.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/fullpage.min.js"></script>
+
+    <script src="js/scrolloverflow.js"></script>
+
+    <script src="js/owl.carousel.min.js"></script>
+
+    <script src="js/jquery.inview.min.js"></script>
+
+    <script src="js/form.js"></script>
+
+    <script src="js/custom.js"></script>
+    <script src="js/api.js"></script>
+
+</body>
+
+</html>
